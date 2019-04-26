@@ -1,6 +1,7 @@
+import java.awt.Point;
 
 abstract class AbstractPiecePosition {
 
-	abstract void PositionX();
-	abstract void PositionY();
+	abstract Point PositionX();
+	abstract Point PositionY();
 }

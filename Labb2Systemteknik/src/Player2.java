@@ -1,5 +1,17 @@
 
-public class Player2 extends AbstractPlayer{
+public class Player2 extends AbstractPlayer implements PieceCounter{
+
+	@Override
+	public int White() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int Black() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 
 	@Override
 	boolean Turn() {
@@ -14,9 +26,14 @@ public class Player2 extends AbstractPlayer{
 	}
 
 	@Override
-	void PlayerName() {
+	char PlayerName() {
 		// TODO Auto-generated method stub
-		
+		return 0;
 	}
 
+	@Override
+	public int Amount() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }
